@@ -5,8 +5,8 @@
 </p>
 
 <p align='center'>
-<a href='https://www.npmjs.com/package/nuxt-windicss'>
-<img src='https://img.shields.io/npm/v/nuxt-windicss?color=0EA5E9&label='>
+<a href='https://www.npmjs.com/package/gatsby-plugin-windicss'>
+<img src='https://img.shields.io/npm/v/gatsby-plugin-windicss?color=0EA5E9&label='>
 </a>
 </p>
 
@@ -79,7 +79,9 @@ If you were previously using `tailwindcss`, please consult the [documentation](h
 
 ```js
 export default {
-  scan: { exclude: ["node_modules/**/*", ".git/**/*"] },
+  scan: {
+    exclude: ["node_modules", ".git", "dist", "public", ".cache", ".temp"],
+  },
   transformCSS: "pre",
 };
 ```
