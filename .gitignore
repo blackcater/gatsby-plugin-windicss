@@ -1,0 +1,14 @@
+# os
+.DS_Store
+
+# editor
+.vscode/
+.idea/
+.nova/
+
+# node
+node_modules/
+
+# yarn
+yarn.lock
+

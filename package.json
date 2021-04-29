@@ -1,0 +1,28 @@
+{
+  "name": "gatsby-plugin-windicss",
+  "version": "0.0.0",
+  "description": "Windi CSS for Gatsby",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "repository": "git@github.com:blackcater/unisite.git",
+    "directory": "packages/unisite-utils"
+  },
+  "keywords": [
+    "windi",
+    "gatsby",
+    "gatsby-plugin",
+    "windicss"
+  ],
+  "author": "Elon Tang <blackcater@blackcater.dev> (https://www.blackcater.com)",
+  "license": "MIT",
+  "scripts": {},
+  "peerDependencies": {
+    "windicss": ">=2 <3"
+  },
+  "dependencies": {
+    "defu": "^4.0.1",
+    "windicss-webpack-plugin": "^0.3.3"
+  },
+  "devDependencies": {}
+}
