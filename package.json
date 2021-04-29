@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-windicss",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Windi CSS for Gatsby",
   "main": "index.js",
   "repository": {
