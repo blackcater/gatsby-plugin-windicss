@@ -18,7 +18,7 @@
   "license": "MIT",
   "scripts": {},
   "peerDependencies": {
-    "windicss": ">=2 <3"
+    "windicss": "<4"
   },
   "dependencies": {
     "defu": "^4.0.1",
