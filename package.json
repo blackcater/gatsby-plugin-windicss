@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-windicss",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Windi CSS for Gatsby",
   "main": "index.js",
   "repository": {
@@ -18,11 +18,11 @@
   "license": "MIT",
   "scripts": {},
   "peerDependencies": {
-    "windicss": ">=2 <3"
+    "windicss": ">=2 <4"
   },
   "dependencies": {
-    "defu": "^4.0.1",
-    "windicss-webpack-plugin": "^0.3.3"
+    "defu": "^5.0.0",
+    "windicss-webpack-plugin": "^0.6.0"
   },
   "devDependencies": {}
 }

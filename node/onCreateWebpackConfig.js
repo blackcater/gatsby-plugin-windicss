@@ -3,9 +3,8 @@ const merge = require("defu").arrayFn;
 
 const defaultOptions = {
   scan: {
-    exclude: ["node_modules", ".git", "dist", "public", ".cache", ".temp"],
+    exclude: ["node_modules", ".git", "dist", ".cache", ".temp"],
   },
-  transformCSS: "pre",
 };
 
 module.exports = function onCreateWebpackConfig({ actions }, options) {
