@@ -21,7 +21,7 @@
     "windicss": ">=2 <4"
   },
   "dependencies": {
-    "defu": "^5.0.0",
+    "defu": "^6.0.0",
     "windicss-webpack-plugin": "^0.6.0"
   },
   "devDependencies": {}
